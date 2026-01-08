@@ -13,7 +13,7 @@ permalink: /research/
 
 ### Published
 
-0. Julio Careaga, Stefan Diehl, **JM**, *An invariant-region-preserving scheme for a convection-reaction-Cahn–Hilliard multiphase model of biofilm growth in slow sand filters*, Computers & Mathematics with Applications, Volume 201 (2026)
+0. Julio Careaga, Stefan Diehl & **JM**, *An invariant-region-preserving scheme for a convection-reaction-Cahn–Hilliard multiphase model of biofilm growth in slow sand filters*, Computers & Mathematics with Applications, Volume 201 (2026)
 0. Isaac Bermúdez, **JM** & Manuel Solano, *A hybridizable discontinuous Galerkin method for Stokes/Darcy coupling on dissimilar meshes*, IMA Journal of Numerical Analysis. 36 p., drae109 (2025)
 0. Diehl, S., **JM**, Catherine J. Paul & Tage Rosenqvist, *A convection-diffusion-reaction system with discontinuous flux modelling biofilm growth in slow sand filters*, Applied Mathematical Modelling. 137, Part A, 115675 (2025)
 0. **JM**, Ngoc Cuong Nguyen & Manuel Solano, *A dissimilar non-matching HDG discretization for Stokes flows*, Computer Methods in Applied Mechanics and Engineering. 399, 115292 (2022)
