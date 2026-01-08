@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Jaime R. Manríquez
-email: jaime.manriquez@math.lth.se
+# email: jaime.manriquez [at] math.lth.se
 description: >- # this means to ignore newlines until "baseurl:"
   Personal website
 baseurl: "" # the subpath of your site, e.g. /blog
