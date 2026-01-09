@@ -3,4 +3,3 @@
 layout: home
 ---
 
-![Image]({{ site.baseurl }}/assets/images/me.jpeg){: width="250" }
