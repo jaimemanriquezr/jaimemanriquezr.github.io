@@ -38,3 +38,29 @@ $post-date-color: #9a9a9a;
 // Message box
 $message-color: #717171;
 $message-background-color: #f9f9f9;
+
+// Dark scheme
+// Counterparts to the colours above, applied in base/_dark.scss when the
+// visitor's system prefers a dark colour scheme.
+$dark-body-text-color: #c2c6cc;
+$dark-body-background-color: #16181d;
+$dark-body-top-border-color: #2f5f9e;
+
+$dark-link-color: #7fa8dc;
+
+$dark-nav-bottom-border-color: #2e323a;
+$dark-nav-link-color: #b9c3d6;
+$dark-nav-link-underline-color: #4fb0e8;
+$dark-nav-icon-color: #eef1f5;
+$dark-nav-icon-background-color: #2f5f9e;
+
+$dark-heading-color: #e4e7ec;
+$dark-post-title-color: #8fb5e6;
+$dark-post-date-color: #8b8f97;
+
+$dark-muted-color: #9aa0a8;
+$dark-border-color: #2e323a;
+$dark-block-background-color: #22252b;
+$dark-code-color: #e39aa0;
+
+$dark-message-color: #a4a9b1;

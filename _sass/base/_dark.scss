@@ -1,0 +1,194 @@
+/**
+  * _dark.scss
+  * Dark colour scheme, applied automatically when the visitor's operating
+  * system asks for one. There is no toggle: the page simply follows the
+  * system setting.
+  *
+  * These rules restate selectors defined earlier in the stylesheet with the
+  * same specificity, so this partial MUST be imported last in style.scss —
+  * it wins on source order alone.
+  *
+  * Some selectors here belong to _css/franklin.css rather than to Celeste.
+  * That file is linked before celeste.min.css in _layout/head_mixin.html,
+  * so overriding it from here works for equal specificity too.
+  */
+
+@media (prefers-color-scheme: dark) {
+
+  // Custom properties declared by _css/franklin.css
+  :root {
+    --block-background: #{$dark-block-background-color};
+    --output-background: #1c1f24;
+    --text-color: #{$dark-body-text-color};
+  }
+
+  body {
+    color: $dark-body-text-color;
+    background-color: $dark-body-background-color;
+    border-top-color: $dark-body-top-border-color;
+  }
+
+  a {
+    color: $dark-link-color;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: $dark-heading-color;
+  }
+
+  strong {
+    color: $dark-heading-color;
+  }
+
+  hr {
+    border-top-color: $dark-border-color;
+    border-bottom-color: $dark-body-background-color;
+  }
+
+  abbr {
+    color: $dark-muted-color;
+
+    &[title] {
+      border-bottom-color: $dark-border-color;
+    }
+  }
+
+  blockquote {
+    color: $dark-muted-color;
+    border-left-color: $dark-border-color;
+  }
+
+  table {
+    border-color: $dark-border-color;
+  }
+
+  td,
+  th {
+    border-color: $dark-border-color;
+  }
+
+  tbody tr:nth-child(odd) td,
+  tbody tr:nth-child(odd) th {
+    background-color: #1c1f24;
+  }
+
+  // Navigation
+  .nav-main {
+    ul {
+      border-bottom-color: $dark-nav-bottom-border-color;
+    }
+
+    li a {
+      color: $dark-nav-link-color;
+    }
+
+    li.logo a {
+      color: $dark-nav-icon-color;
+      background: $dark-nav-icon-background-color;
+    }
+  }
+
+  .icon-links a {
+    color: $dark-nav-link-color;
+
+    &:hover,
+    &:focus {
+      color: $dark-link-color;
+    }
+  }
+
+  .hvr-underline-reveal:before {
+    background: $dark-nav-link-underline-color;
+  }
+
+  .hvr-ripple-out:before {
+    border-color: $dark-nav-icon-background-color;
+  }
+
+  // Titles, dates, footer links
+  .ftr-links a,
+  .landing-title,
+  .page-title,
+  .post-title,
+  .post-title a {
+    color: $dark-post-title-color;
+  }
+
+  .landing-title {
+    border-bottom-color: $dark-border-color;
+  }
+
+  .post-date {
+    color: $dark-post-date-color;
+  }
+
+  // Code
+  code {
+    color: $dark-code-color;
+    background-color: $dark-block-background-color;
+  }
+
+  pre code {
+    color: inherit;
+    background-color: transparent;
+  }
+
+  .highlight {
+    background-color: $dark-block-background-color;
+
+    .lineno {
+      color: $dark-post-date-color;
+    }
+  }
+
+  .message {
+    color: $dark-message-color;
+    background-color: $dark-block-background-color;
+  }
+
+  .pagination {
+    color: $dark-border-color;
+  }
+
+  a.pagination-item:focus,
+  a.pagination-item:hover {
+    background-color: $dark-block-background-color;
+  }
+
+  // Rules belonging to _css/franklin.css
+  .franklin-content a {
+    color: $dark-link-color;
+  }
+
+  .franklin-content .eqref a,
+  .franklin-content .bibref a {
+    color: #6fbf8a;
+  }
+
+  .franklin-content th,
+  .franklin-content td {
+    border-color: $dark-border-color;
+  }
+
+  .franklin-content blockquote {
+    border-left-color: #4a4f58;
+  }
+
+  .franklin-content .colbox-blue {
+    background-color: #1d2530;
+    border-left-color: #3d7ac2;
+  }
+
+  .code-output {
+    border-color: #3a3e46;
+  }
+
+  .page-foot {
+    color: #7e838b;
+    border-top-color: $dark-border-color;
+  }
+
+  .franklin-content .page-foot a {
+    color: #7e838b;
+  }
+}
