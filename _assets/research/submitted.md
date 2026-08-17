@@ -1,0 +1,1 @@
+* **JM**, Tage Rosenqvist, Sandy Chan, Catherine J. Paul & Stefan Diehl. *Simulating biofilm growth and pathogen removal in slow sand filters under variable environmental conditions using a multi-phase continuum model*

@@ -1,0 +1,32 @@
+/**
+  * _icon-links.scss
+  * Row of profile icons (GitHub, Scholar, ORCID, ResearchGate) on the
+  * landing page. The icons are inline SVG, so they need no icon font and
+  * no extra request; `fill: currentColor` makes them follow the link
+  * colour, including in the dark scheme.
+  */
+
+.icon-links {
+  display: flex;
+  gap: 1.4rem;
+  align-items: center;
+  margin: 0 0 1.5rem;
+
+  a {
+    display: inline-flex;
+    color: $nav-link-color;
+
+    &:hover,
+    &:focus {
+      color: $link-color;
+      text-decoration: none;
+    }
+  }
+
+  svg {
+    width: 1.3rem;
+    height: 1.3rem;
+    fill: currentColor;
+    display: block;
+  }
+}
