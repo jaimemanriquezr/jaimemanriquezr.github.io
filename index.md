@@ -3,9 +3,9 @@
 ## ABOUT ME
 @@icon-links
 {{github https://github.com/jaimemanriquezr}}
-{{scholar REPLACE-WITH-YOUR-SCHOLAR-URL}}
-{{orcid REPLACE-WITH-YOUR-ORCID-URL}}
-{{researchgate REPLACE-WITH-YOUR-RESEARCHGATE-URL}}
+{{scholar https://scholar.google.com/citations?user=nnLabUkAAAAJ}}
+{{orcid https://orcid.org/0000-0002-5853-1125}}
+{{researchgate https://www.researchgate.net/profile/Jaime-Manriquez}}
 @@
 For [strange reasons](https://en.wikipedia.org/wiki/Applied_mathematics) I ended up moving to Sweden in 2021, where I have sporadically performed stand-up comedy and [wrote research articles](/research/).
 
