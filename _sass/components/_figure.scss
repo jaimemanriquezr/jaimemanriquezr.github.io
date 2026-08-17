@@ -1,0 +1,32 @@
+/**
+  * _figure.scss
+  * Bordered figure with a caption bar underneath.
+  */
+
+figure {
+  border: thin silver solid;
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  max-width: 220px;
+  margin: 2rem auto;
+}
+
+// franklin.css centres stand-alone images with
+// `.franklin-content img { width: 70%; padding-left: 10% }`, which inside a
+// figure shifts the image to the right instead. The `.franklin-content`
+// prefix is needed here purely to outweigh that selector's specificity.
+.franklin-content figure img {
+  width: 100%;
+  max-width: 220px;
+  padding-left: 0;
+  margin: 0; // override the 1rem bottom margin celeste puts on every img
+}
+
+figcaption {
+  background-color: #222222;
+  color: white;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+}

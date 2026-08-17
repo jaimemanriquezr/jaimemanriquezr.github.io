@@ -1,0 +1,19 @@
+/**
+  * _photo-grid.scss
+  * Photos laid out two per row. A last odd photo wraps onto its own row and
+  * is centred there, giving the V arrangement. Narrow screens fall back to a
+  * single column automatically, since the figures simply stop fitting.
+  */
+
+.photo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start; // let each figure keep its natural height
+  gap: 1.5rem;
+  margin: 2rem 0;
+
+  figure {
+    margin: 0; // the grid's gap handles the spacing now
+  }
+}

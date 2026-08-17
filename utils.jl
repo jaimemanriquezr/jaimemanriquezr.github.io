@@ -12,6 +12,15 @@ function hfun_arxiv(params)
         return """[<a href="https://arxiv.org/abs/$id">arxiv</a>]"""
 end
 
+function hfun_addpic(params)
+        filename = strip(params[1])
+        caption = strip(params[2])
+        return """<figure>""" *
+               """<img src="/assets/$filename" style="width: 100%">""" *
+               """<figcaption>$caption</figcaption>""" *
+               """</figure>"""
+end
+
 const ICON_LABELS = Dict(
         "github" => "GitHub",
         "scholar" => "Google Scholar",
