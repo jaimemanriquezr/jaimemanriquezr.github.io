@@ -1,16 +1,17 @@
 @def title = "Software"
+@def hasmath = true
 
 Here is some software that I have developed over the years.
 
 - [MPC-SSF](https://github.com/jaimemanriquezr/MPC-SSF): A MATLAB Toolbox for simulating biofilm growth and pathogen removal in slow sand filters
 
-@@row
-~~~
-<div style="display: flex; gap: 1rem; align-items: center">
-  <img src="/assets/ssf_phases.png" style="width: 50%">
-  <img src="/assets/ssf_pathogen.png" style="width: 50%">
-</div>
-~~~
+@@photo-grid
+{{figure ssf_phases.png
+"The five main phases of the multiphase model ($\rm M$, $\rm Pe$, $\rm Le$, $\rm Pf$, $\rm Lf$) with the two main superphase velocities ($v_{\rm b}$, $v_{\rm f}$)"
+}}
+{{figure ssf_pathogen.png
+"The pathogen influx (top) is absorbed by the biofilm (bottom) and actually feeds the latter, causing upwards growth and further removal!"
+}}
 @@
 
 

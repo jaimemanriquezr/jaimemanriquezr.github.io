@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+   <link rel="stylesheet" href="/libs/katex/katex.min.css">
+     
   
   <link rel="preload" href="/assets/fonts/source-sans-pro-400-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/css/fonts.css">
@@ -41,10 +42,7 @@
 <li><p><a href="https://github.com/jaimemanriquezr/MPC-SSF">MPC-SSF</a>: A MATLAB Toolbox for simulating biofilm growth and pathogen removal in slow sand filters</p>
 </li>
 </ul>
-<div class="row"><div style="display: flex; gap: 1rem; align-items: center">
-  <img src="/assets/ssf_phases.png" style="width: 50%">
-  <img src="/assets/ssf_pathogen.png" style="width: 50%">
-</div></div>
+<div class="photo-grid"><figure><img src="/assets/ssf_phases.png" style="width: 100%"><figcaption>The five main phases of the multiphase model &#40;\(\rm M\), \(\rm Pe\), \(\rm Le\), \(\rm Pf\), \(\rm Lf\)&#41; with the two main superphase velocities &#40;\(v_{\rm b}\), \(v_{\rm f}\)&#41;</figcaption></figure> <figure><img src="/assets/ssf_pathogen.png" style="width: 100%"><figcaption>The pathogen influx &#40;top&#41; is absorbed by the biofilm &#40;bottom&#41; and actually feeds the latter, causing upwards growth and further removal&#33;</figcaption></figure></div>
 <ul>
 <li><p><a href="https://github.com/jaimemanriquezr/TPM-HDG">TPM-HDG</a>: A MATLAB Toolbox for numerically solving PDEs on curved domains/interfaces using the Transfer Path Method.</p>
 </li>
@@ -53,10 +51,15 @@
   <img src="/assets/gifs/bench_kidney_movie.gif" style="width: 100%">
 </div></div>
 <div class="page-foot">
-    <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> Jaime Manríquez. Last modified: August 17, 2026.
+    <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> Jaime Manríquez. Last modified: August 18, 2026.
     Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
 </div>
 </div><!-- CONTENT ENDS HERE -->
+    
+        <script src="/libs/katex/katex.min.js"></script>
+<script src="/libs/katex/contrib/auto-render.min.js"></script>
+<script>renderMathInElement(document.body)</script>
+
     
     
   </body>

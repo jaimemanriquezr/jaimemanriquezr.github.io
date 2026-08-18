@@ -12,7 +12,7 @@ A non-exhaustive list of hobbies I started and stopped and hope to start again:
 * writing lis
 
 @@photo-grid
-{{addpic glass.jpg "This is me trying glass blowing in Kosta, Sweden. Very fun! Highly recommended."}}
-{{addpic thesis.jpg "A physical copy of my doctoral thesis. We still have 25 copies left if anybody wants one."}}
-{{addpic promotion.jpg "In Sweden, the doctoral promotion ceremony has a very strict dresscode and that hat costs up to 1500 USD! Luckily you can borrow it if you have the right friends."}}
+{{figure glass.jpg "This is me trying glass blowing in Kosta, Sweden. Very fun! Highly recommended."}}
+{{figure thesis.jpg "A physical copy of my doctoral thesis. We still have 25 copies left if anybody wants one."}}
+{{figure promotion.jpg "In Sweden, the doctoral promotion ceremony has a very strict dresscode and that hat costs up to 1500 USD! Luckily you can borrow it if you have the right friends."}}
 @@

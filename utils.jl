@@ -12,9 +12,22 @@ function hfun_arxiv(params)
         return """[<a href="https://arxiv.org/abs/$id">arxiv</a>]"""
 end
 
-function hfun_addpic(params)
+# Run a caption through Franklin so that markdown (emphasis, links) and math
+# are processed instead of being emitted literally. Franklin turns dollar-sign
+# math into the \(...\) delimiters that KaTeX's auto-render looks for.
+# fd2html wraps its result in a paragraph, which a figcaption does not want.
+function caption_html(caption)
+        html = strip(Franklin.fd2html(caption; internal=true))
+        # NOTE: math in a caption is invisible to Franklin's `automath`
+        # detection, which only scans the markdown source. A page using math
+        # here therefore needs an explicit `@def hasmath = true`, otherwise
+        # <head> omits the KaTeX stylesheet and every formula renders twice.
+        return replace(html, r"^<p>" => "", r"</p>$" => "")
+end
+
+function hfun_figure(params)
         filename = strip(params[1])
-        caption = strip(params[2])
+        caption = caption_html(strip(params[2]))
         return """<figure>""" *
                """<img src="/assets/$filename" style="width: 100%">""" *
                """<figcaption>$caption</figcaption>""" *
