@@ -1,1 +1,2 @@
 * **JM**, Tage Rosenqvist, Sandy Chan, Catherine J. Paul & Stefan Diehl. *Simulating biofilm growth and pathogen removal in slow sand filters under variable environmental conditions using a multi-phase continuum model*
+* Isaac Bermúdez, **JM** & Manuel Solano. *Analysis of an unfitted HDG method for the coupled linear elasticity/Stokes problem* [[preprint](https://ci2ma.udec.cl/publicaciones/prepublicaciones/prepublicacion.php?id=647)]
